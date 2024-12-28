@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+body {
+
+    font-family: "Cabin", sans-serif;
+    color: #798252;
+    background-color: #f4f0ea;
+    font-weight: 400;
+
+}
+
+.logo {
+    width: 200px;
+    cursor: pointer;
+}
+
+
+.menu {
+
+    width: 50px;
+    cursor: pointer;
+    margin-left: 40px;
+
+}
+
+header {
+
+    padding: 3rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)), url(Imagens/Sidneycapa.jpg);
+    background-position: center;
+    background-size: cover;
+
+
+
+
+}
+
+.nav-bar {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+
+}
+
+nav ul {
+
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul li {
+
+    list-style: none;
+    margin-left: 60px;
+
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+
+
+}
+
+.row {
+
+    display: flex;
+    height: 88%;
+    align-items: center;
+    padding: 5% 8%;
+
+
+}
+
+.col {
+
+    width: 50%;
+}
+
+h1 {
+
+    color: #224344;
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+
+p1 {
+    color: #224344;
+    font-size: 18px;
+    line-height: 30px;
+
+
+
+
+
+}
+
+button {
+
+    width: 180px;
+    margin-top: 60px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #224344;
+    color: #fff;
+    font-size: 15px;
+    border: 0;
+
+
+
+}
+
+.card {
+
+    width: 300px;
+    height: 350px;
+    display: inline-block;
+    background-color: red;
+    border-radius: 10px;
+    padding: 15px 25px;
+    margin: 10px 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.card:hover {
+
+    transform: translateY(-15px);
+}
+
+.card1 {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url(Imagens/China.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+    line-height: 30px;
+
+
+
+}
+
+.card2 {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url(Imagens/Dubai.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+    line-height: 30px;
+
+
+}
+
+.card3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url(Imagens/SãoPaulo.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+    line-height: 30px;
+
+
+}
+
+.card4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url(Imagens/Itália.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+    line-height: 30px;
+
+
+
+}
+
+H5 {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+p {
+
+    color: #fff;
+
+
+}
